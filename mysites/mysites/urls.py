@@ -16,6 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from core import views
+from despesas import views
+from compras import views
+from apartamento import views
+from anuncio import views
+
 urlpatterns = [
+    path('', views.home, name='home'),
     path('admin/', admin.site.urls),
 ]
