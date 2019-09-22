@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'compras.apps.ComprasConfig',
     'apartamento.apps.ApartamentoConfig',
     'anuncio.apps.AnuncioConfig',
+    'biblioteca.apps.BibliotecaConfig',
+
 ]
 
 MIDDLEWARE = [

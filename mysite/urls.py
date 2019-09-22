@@ -21,6 +21,7 @@ from despesas import views
 from compras import views
 from apartamento import views
 from anuncio import views
+from biblioteca import views
 
 urlpatterns = [
     path('', views.home, name='home'),
