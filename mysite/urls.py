@@ -23,6 +23,7 @@ from apartamento import views
 from anuncio import views
 from biblioteca import views
 from polls import views
+from agenda import views
 
 urlpatterns = [
     path('', views.home, name='home'),

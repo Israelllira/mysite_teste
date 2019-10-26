@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'anuncio.apps.AnuncioConfig',
     'biblioteca.apps.BibliotecaConfig',
     'polls.apps.PollsConfig',
+    'agenda.apps.AgendaConfig',
 
 ]
 
