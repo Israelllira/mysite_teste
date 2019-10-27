@@ -45,6 +45,10 @@ INSTALLED_APPS = [
     'biblioteca.apps.BibliotecaConfig',
     'polls.apps.PollsConfig',
     'agenda.apps.AgendaConfig',
+    'gastosmensais.apps.GastosmensaisConfig',
+    'curso.apps.CursoConfig',
+    'festa.apps.FestaConfig',
+    'revistaquadrinhos.apps.RevistaquadrinhosConfig',
 
 ]
 

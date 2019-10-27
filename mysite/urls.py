@@ -24,6 +24,10 @@ from anuncio import views
 from biblioteca import views
 from polls import views
 from agenda import views
+from gastosmensais import views
+from curso import views
+from festa import views
+from revistaquadrinhos import views
 
 urlpatterns = [
     path('', views.home, name='home'),
