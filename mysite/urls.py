@@ -28,6 +28,8 @@ from gastosmensais import views
 from curso import views
 from festa import views
 from revistaquadrinhos import views
+from proj01 import views
+from blog import views
 
 urlpatterns = [
     path('', views.home, name='home'),
