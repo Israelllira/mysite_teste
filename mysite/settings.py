@@ -25,7 +25,7 @@ SECRET_KEY = 'hxbmp%a=npd43afcnr4t#k0!fe=nug7)@(+e6=ejpshl=cjfp^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'curso.apps.CursoConfig',
     'festa.apps.FestaConfig',
     'revistaquadrinhos.apps.RevistaquadrinhosConfig',
-
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +131,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
